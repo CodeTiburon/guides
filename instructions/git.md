@@ -6,4 +6,4 @@
 
 *product* — ветка, в которой хранятся релизы продукта
 
-![git-workflow-release-cycle-1historical]
+![Historical branches](img/git-workflow-release-cycle-1historical)
