@@ -3,9 +3,9 @@
 В данном руководстве описаны основные приципы и инструкции работы с кодом.
 
  - Инструкции
- 		- Git workflow
+   - [Git workflow](git.md)
  - Code style
- 		- PHP
+   - PHP
  - Best practices
  - Code review
 
