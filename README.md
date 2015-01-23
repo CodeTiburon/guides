@@ -6,6 +6,8 @@
    - [Git workflow](instructions/git.md)
  - Code style
    - PHP
+   - Javascript
+    - [angular 1.*](https://github.com/johnpapa/angularjs-styleguide)  
  - Best practices
  - Code review
 
