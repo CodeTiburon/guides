@@ -6,10 +6,10 @@
    - [Git workflow](instructions/git.md)
  - Code style
    - PHP
-   - - http://refactoring.guru/ru/
    - Javascript
     - [angular 1.*](https://github.com/johnpapa/angularjs-styleguide)  
  - Best practices
+ -- http://refactoring.guru/ru/
  - Code review
 
 Текст может быть написан как на русском так и на английском языках.
