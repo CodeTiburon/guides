@@ -4,6 +4,7 @@
 
  - Инструкции
    - [Git workflow](instructions/git.md)
+   - [Использование Vagrant](instructions/vagrant.md)
  - Code style
   - PHP
    * [PSR-4: Autoloader Standard RU](https://github.com/php-fig/fig-standards/blob/master/accepted/ru/PSR-4-autoloader.md) 
