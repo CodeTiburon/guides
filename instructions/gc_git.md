@@ -33,7 +33,7 @@ Using a dedicated branch to prepare releases makes it possible for one team to p
 ##Maintenance (hotfix) branches
 
 Maintenance or “hotfix” branches are used to quickly patch production releases. This is the only branch that should fork directly off of `production`.As soon as the fix is complete, it should be merged into both `production` and `dev` (or the current release branch), and `production` should be tagged with an updated version number.
-Having a dedicated line of development for bug fixes lets the team address issues without interrupting the rest of the workflow or waiting for the next release cycle. You can think of maintenance branches as ad hoc release branches that work directly with master.
+Having a dedicated line of development for bug fixes lets the team address issues without interrupting the rest of the workflow or waiting for the next release cycle. You can think of maintenance branches as ad hoc release branches that work directly with `dev`.
 
 ##Overview
 
@@ -94,8 +94,8 @@ Having a dedicated line of development for bug fixes lets the team address issue
   
 5. When work is done the changes should incorporated into `dev` branch. Use Pull Requests to do that.
    Before sending of PR you may want to:
-    - cleanup branch history to make sure that each commit in your feature is focused and meaningful;
-    - rebase the feature onto the tip of the `dev` branch.
+    - cleanup branch history to make sure that each commit in your feature is focused and meaningful, see [Local Cleanup](#local-cleanup);
+    - rebase the feature onto the tip of the `dev` branch, see [Integrating an Approved Feature](#integrating-an-approved-feature).
    When/If pull request is ready to be incorporated into `dev` use rebase in order to get linear history and fast-forward merge.
 
 
@@ -140,4 +140,4 @@ This also gives you the chance to squash any follow-up commits added during a pu
   git push -f origin 1234-bug-login
  ```
 
-  > - Flag -f forced Git to overwrite the remote feature branch to match the rebased one. Never ever used it with `dev`,`production` or any other public branch. You can rebase only your own private branches.
+  > - Flag -f forced Git to overwrite the remote feature branch to match the rebased one. Never ever use it with `dev`,`production` or any other public branch. You can rebase only your own private branches.
