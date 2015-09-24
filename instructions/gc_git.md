@@ -33,7 +33,7 @@ Using a dedicated branch to prepare releases makes it possible for one team to p
 ##Maintenance (hotfix) branches
 
 Maintenance or “hotfix” branches are used to quickly patch production releases. This is the only branch that should fork directly off of `production`.As soon as the fix is complete, it should be merged into both `production` and `dev` (or the current release branch), and `production` should be tagged with an updated version number.
-Having a dedicated line of development for bug fixes lets the team address issues without interrupting the rest of the workflow or waiting for the next release cycle. You can think of maintenance branches as ad hoc release branches that work directly with `dev`.
+Having a dedicated line of development for bug fixes lets the team address issues without interrupting the rest of the workflow or waiting for the next release cycle. You can think of maintenance branches as ad hoc release branches that work directly with `production`.
 
 ##Overview
 
