@@ -62,7 +62,7 @@ Having a dedicated line of development for bug fixes lets the team address issue
 
 ###Git workflow:
 
- - Update local `dev` using: `git pull dev` 
+ - Update local `dev` using: `git pull` 
  - Create new feature branch: `git checkout -b new_branch_name`
  - Develop new feature. do commits to feature branch.
  - Sync feature branch with `dev` (optional).
