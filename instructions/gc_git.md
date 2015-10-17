@@ -2,11 +2,19 @@
 
 ##Historical branches
 
-There are two branches to record the history of the project. 
+There are several branches to record the history of the project. 
 
 **dev** — development branch, which serves as an integration branch for features
 
-**production** — stores the official release history. All commits to this branch should have a tag with a version number.
+**prod-[VERSION]** — a set of branches which stores the official release history. All commits to these branches should have a tag with a version number. Due to historical reasons and business needs there are several product versions which are delivered to the clients and very different. The dev team should support all product versions which are deployed to production.
+
+## Versioning
+Starting from Clinton (bumped to version 4.0.0) Semantic Versioning is applied for all future releases. The specification could be read here: http://semver.org/. 
+In short this means we will only have Major.Minor.Patch versions.
+- MAJOR version when you make incompatible API changes,
+- MINOR version when you add functionality in a backwards-compatible manner, and
+- PATCH version when you make backwards-compatible bug fixes.
+Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
 ![Historical branches](img/git-workflow-release-cycle-1historical.png)
 
