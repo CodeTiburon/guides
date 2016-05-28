@@ -1,3 +1,11 @@
+# Самое главное
+
+ - Learn Git commands;
+ - Commit early and often (everyday);
+ - Do make useful commit messages;
+ - Branch out and sync often, new feature -> new branch;
+ - Current working version of code is always in the project repository;
+
 #Git workflow
 
 ##Основные ветки
@@ -24,7 +32,6 @@
 ##Общее описание процесса
 
 ###Общие правила:
-
  - Текущая рабочая версия кода всегда хранится в ветке master
  - Все законченные релизы хранятся в ветке product (опционально) либо в `master`
  - Для обозначения релиза используется `git tag`. В GitHub есть специальная вкладка Release, в которой можно просматривать и создавать релизы.
