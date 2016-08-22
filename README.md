@@ -17,6 +17,14 @@
   - [Рефакторинг: Принципы](http://refactoring.guru/ru/)
  - Code review
 
+# Contribution
+
 Текст может быть написан как на русском так и на английском языках.
 Любой может сделать свой вклад в документацию с помощью PR (Pull Request).
+
+# More Info
+
+Have a question? Please [open an issue](https://github.com/CodeTiburon/guides/issues/new)! 
+
+Copyright © 2014-2016 [CodeTiburon](https://codetiburon.com)
 
