@@ -26,5 +26,5 @@
 
 Have a question? Please [open an issue](https://github.com/CodeTiburon/guides/issues/new)! 
 
-Copyright © 2014-2016 [CodeTiburon](https://codetiburon.com)
+Copyright © 2014-2017 [CodeTiburon](https://codetiburon.com)
 
