@@ -15,6 +15,7 @@
    - [angular 1.*](https://github.com/johnpapa/angularjs-styleguide)  
  - Best practices
   - [Рефакторинг: Принципы](http://refactoring.guru/ru/)
+  - [Исключения](https://www.alainschlesser.com/structuring-php-exceptions/)
  - Code review
 
 # Contribution
